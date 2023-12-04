@@ -5,19 +5,23 @@
 #include <CondicionesIniciales.hpp>
 #include <Calculos.hpp>
 #include <Resultados.hpp>
+#include <Integrales.hpp>
 
 using namespace std;
 
 int main(int argc, char const *argv[])
 {
+    Integrales ECI;
     CondicionesIniciales dato;
     Calculos FX;
     Resultados RE;
+    
     int i, j, E = 0;
     do
     {
         // Reinicio de ciclo
         E = 1;
+        ECI.MenuDeFunciones();
         // Pedir datos
         dato.Getdatos();
 

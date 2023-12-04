@@ -13,7 +13,7 @@ public:
     Calculos() {}
     ~Calculos() {}
 
-    float Integral(float LF)
+    float Integra(float LF)
     {
         //	Elejir una funcion a evaluar
         Resultado = sqrt(1 - (cos(LF)));
@@ -35,7 +35,7 @@ public:
         {
             LF = LF + H;
             cout << "X" << i + 1 << "=" << LF;
-            Contador = Integral(LF);
+            Contador = Integra(LF);
             Sumatoria = Sumatoria + Contador;
             cout << "\nF(x" << i + 1 << ")=" << Contador << "\n\n";
         }
