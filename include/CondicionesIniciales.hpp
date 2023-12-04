@@ -9,12 +9,7 @@ public:
     float
         LSuperior,
         LInferior,
-        Intervalos,
-        h,
-        Contador,
-        Solucion,
-        Sumatoria,
-        CantidadX;
+        Intervalos;
 
     int j;
 
@@ -26,16 +21,13 @@ public:
         LSuperior = 0;
         LInferior = 0;
         Intervalos = 0;
-        h = 0;
-        Contador = 0;
-        Solucion = 0;
-        Sumatoria = 0;
-        CantidadX = 0;
         j = 0;
     }
 
     void Getdatos()
     {
+        Reiniciar();
+        
         //	Condiciones iniciales
         system("cls");
         cout << ("\nIntroduce el limite superior:");
