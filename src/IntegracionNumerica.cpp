@@ -5,7 +5,7 @@
 #include <CondicionesIniciales.hpp>
 #include <Calculos.hpp>
 #include <Resultados.hpp>
-#include <Integrales.hpp>
+
 
 using namespace std;
 

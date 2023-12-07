@@ -1,6 +1,5 @@
 #pragma once
 #include <iostream>
-#include <Integrales.hpp>
 using namespace std;
 
 class CondicionesIniciales
