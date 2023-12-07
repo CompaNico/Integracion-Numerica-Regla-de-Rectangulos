@@ -15,7 +15,7 @@ int main(int argc, char const *argv[])
     Calculos FX;
     Resultados RE;
     
-    int i, j, E = 0;
+    int E = 0;
     do
     {
         // Reinicio de ciclo
