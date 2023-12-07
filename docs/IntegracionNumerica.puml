@@ -1,0 +1,44 @@
+@startuml IntegracionNumerica
+
+class IntegracionNumerica
+{
+    +e:int
+}
+class Calculos
+{
++Sumatoria:float
+# resultado:float
+# contador:float
++Integra():float
++CalcularHyX1():float
++IntegracionNumerica():float
++Reiniciar():void
+}
+class CondicionesIniciales
+{
+    +LSuperior:float
+    +LIngerior:float
+    +Intervalos:float
+    +j:int
+    + Reiniciar():void
+    + Getdatos():void
+}
+class Resultados
+{
++h:float    
++CantidadX:float
++Resultado:float
++ImprimirResultados():void
+}
+
+IntegracionNumerica "1" *-- "1" CondicionesIniciales
+IntegracionNumerica "1" *-- "1" Resultados
+IntegracionNumerica "1" *-- "3" Calculos
+
+Resultados "3" o-- "1" CondicionesIniciales
+Resultados "3" -|> "3" Calculos
+Calculos "3" o-- "1" CondicionesIniciales
+Calculos "3" o-- "3" Resultados
+Resultados "3" o-- "3" Calculos
+
+@enduml
