@@ -11,7 +11,6 @@ using namespace std;
 
 int main(int argc, char const *argv[])
 {
-    Integrales ECI;
     CondicionesIniciales dato;
     Calculos FX;
     Resultados RE;
@@ -21,7 +20,6 @@ int main(int argc, char const *argv[])
     {
         // Reinicio de ciclo
         E = 1;
-        ECI.MenuDeFunciones();
         // Pedir datos
         dato.Getdatos();
 
@@ -34,7 +32,7 @@ int main(int argc, char const *argv[])
         RE.ImprimirResultados(FX.Sumatoria);
 
         // Preguntamos por otra evaluacion
-        cout << "\nQuieres volver a evaluar la Integral Si(0) No(1)::";
+        cout << "\nQuieres volver a evaluar la Integral Si(0) No(/=0)::";
         cin >> E;
         system("cls");
     } while (E == 0);
