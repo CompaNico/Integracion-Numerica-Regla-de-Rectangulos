@@ -15,10 +15,12 @@ Proyecto de Metodos numericos y Programacion Avanzada
   # Integracion numerica por rectangulos
   ![imagen](/imagenes/geogebra-export-1-1.png)  
     
-Este metodo consiste en dividir el area abajo de la curva en varios rectangulos, la cantidad de rectangulos corresponde a el numero de intervalos. Entre mayor el intervalo es menor la distancia del area del rectangulo a la integral, por lo tanto es una aproximacion mas exacta. "h" corresponde a la distancia entre los intervalos h=((x3-x0)/Intervalo). La formula por metodo de rectangulos Y=h[Σf(x)]. Proporcionamos todos los datos necesarios para comprovar la aproximacion de la integral dentro del programa (Ver capturas de pantalla).
+Este metodo consiste en dividir el area abajo de la curva en varios rectangulos, la cantidad de rectangulos corresponde a el numero de intervalos. Entre mayor el intervalo es menor la distancia del area del rectangulo a la integral, por lo tanto es una aproximacion mas exacta. "h" corresponde a la distancia entre los intervalos h=((x3-x0)/Intervalo)  (de acuerdo con la imagen). La formula por metodo de rectangulos Y=h[Σf(x0 - x(3-1))]   (de acuerdo con la imagen). Proporcionamos todos los datos necesarios para comprovar la aproximacion de la integral dentro del programa (Ver capturas de pantalla).
 ## Manual de usuario
 Este programa se desarrollo con MSYS2 Link de descarga: https://www.msys2.org/  
-Mas no es necesario descargarlo para su funcionameinto.   
+Mas no es necesario descargarlo para su funcionameinto.      
+  
+  
    ![imagen](/imagenes/Integral%20definida.jpg)  
    Nuestro programa se encarga de todo el calculo, lo unico que se necesita es introducir una ecuacion en funcion de X, la cual Corresponde a la Integral a evaluar. Acompañado de los limites de la integral (b,a) y la cantidad de intervalos que quieres evaluar, los cuales se te pide al momento de ejecutar el programa (make run).
      

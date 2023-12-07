@@ -26,7 +26,7 @@ public:
     void Getdatos()
     {
         Reiniciar();
-        
+
         //	Condiciones iniciales
         system("cls");
         cout << ("\nIntroduce el limite superior:");

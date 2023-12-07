@@ -6,7 +6,6 @@
 #include <Calculos.hpp>
 #include <Resultados.hpp>
 
-
 using namespace std;
 
 int main(int argc, char const *argv[])
@@ -14,7 +13,7 @@ int main(int argc, char const *argv[])
     CondicionesIniciales dato;
     Calculos FX;
     Resultados RE;
-    
+
     int E = 0;
     do
     {
